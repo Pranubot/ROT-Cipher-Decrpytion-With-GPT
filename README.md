@@ -8,7 +8,6 @@ A Python tool that uses AI to automatically decode ROT cipher encrypted text. It
 - Uses AI to identify the correct decryption
 - Handles both uppercase and lowercase text
 - Preserves non-alphabetic characters
-- Shows all variations for short texts
 
 ## Requirements
 
