@@ -2,6 +2,8 @@
 
 A Python tool that uses AI to automatically decode ROT cipher encrypted text. It generates all possible ROT variations (ROT1 through ROT25) and uses OpenAI's GPT model to identify the most likely correct decryption.
 
+When I started reading a textbook on Cryptography, one of the first ciphers I learned about were mono-alphabetic substitution ciphers, namely the ROT. ROT ciphers replace a letter with the nth letter after it, with n being any number the encrypter chooses. The way you decrypt these is by doing all 25 ROTs (26 letters minus the one you start with), and seeing which one results in english text. My textbook mentioned that one drawback of this method is that its hard to automate it, since computers can't "make sense" of strings of letters like we can. More specifically, computers can't figure out which of the 26 ROTs is correct. But as a CS student living in 2025, I know that AI has done a whole lot in giving computers "sentience". So after finishing the chapter, I got to work on bolting an AI model on to a ROT decoder.
+
 ## Features
 
 - Generates all possible ROT cipher variations
