@@ -60,7 +60,3 @@ Most likely decryption (ROT13):
 Original text: URYYB JBEYQ
 Decrypted text: HELLO WORLD
 ```
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
