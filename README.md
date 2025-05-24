@@ -20,7 +20,7 @@ When I started reading a textbook on Cryptography, one of the first ciphers I le
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/rot-cipher-decoder.git
+git clone https://github.com/pranubot/rot-cipher-decoder.git
 cd rot-cipher-decoder
 ```
 
